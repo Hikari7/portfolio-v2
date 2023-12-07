@@ -1,7 +1,9 @@
-export default function Home() {
+import Home from './home/page';
+
+export default function Main() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-center py-2'>
-      test
+      <Home />
     </main>
   );
 }
