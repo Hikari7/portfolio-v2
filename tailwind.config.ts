@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,13 +8,52 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: {
+          DEFAULT: '#C92D53',
+          accent: '#661931',
+        },
+        gray: {
+          DEFAULT: '#736F7A',
+        },
+        //textcolor
+        black: {
+          DEFAULT: '#28232F',
+        },
+      },
+      backgroundColor: {
+        primary: {
+          DEFAULT: '#FEEDEF',
+          hover: '#FDE1E5',
+          action: '#FCD4DB',
+        },
+        primarySolid: {
+          DEFAULT: '#E4526F',
+          second: '#DC4665',
+        },
+        gray: {
+          DEFAULT: '#F4F1F4',
+          hover: '#EDEAEE',
+          action: '#E7E4E9',
+        },
+      },
+      borderColor: {
+        primary: {
+          uninteractive: '#F7C7CF',
+          intreractive: '#EEB5C0',
+          focus: '#E49DAC',
+        },
+        gray: {
+          uninteractive: '#E0DEE3',
+          intreractive: '#D6D4DC',
+          focus: '#C4C3CC',
+        },
+      },
+      boxShadow: {
+        header: '4px 4px 10px 0px rgba(0, 0, 0, 0.24)',
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
