@@ -1,26 +1,12 @@
-import type { Metadata } from 'next';
+import {ReactNode} from 'react';
 
-import './globals.css';
-import { roboto } from './lib/fonts';
-
-export const metadata: Metadata = {
-  title: 'Hikari Kobe',
-  description: 'A design-minded Front-end Engineer',
+type Props = {
+  children: ReactNode;
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang='en'>
-      {/* TODO:add ternary operator to set JP fonts*/}
-      <body className={`${roboto.className} bg-[#FFFDFD]`}>
-        {/* header */}
-        {children}
-        {/* social media icons */}
-      </body>
-    </html>
-  );
+// Even though this component is just passing its children through, the presence
+// of this file fixes an issue in Next.js 13.4 where link clicks that switch
+// the locale would otherwise cause a full reload.
+export default function RootLayout({children}: Props) {
+  return children;
 }
