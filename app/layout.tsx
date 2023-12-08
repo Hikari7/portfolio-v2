@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+import './globals.css';
+import { roboto } from './lib/fonts';
 
 export const metadata: Metadata = {
   title: 'Hikari Kobe',
@@ -16,7 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={`${inter.className} bg-[#FFFDFD]`}>
+      {/* TODO:add ternary operator to set JP fonts*/}
+      <body className={`${roboto.className} bg-[#FFFDFD]`}>
         {/* header */}
         {children}
         {/* social media icons */}
