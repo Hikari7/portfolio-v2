@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import './globals.css';
 import { roboto } from './lib/fonts';
-import { NextIntlClientProvider } from 'next-intl';
 
 export const metadata: Metadata = {
   title: 'Hikari Kobe',
