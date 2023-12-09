@@ -10,6 +10,7 @@
     "fix:lint": "next lint --fix"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
     "next": "14.0.3",
     "next-intl": "^3.3.1",
     "react": "^18",

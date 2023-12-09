@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
+import { Button } from '../ui/Button';
 
 const Home = () => {
   const t = useTranslations('Hero');
@@ -9,10 +10,14 @@ const Home = () => {
         <p>{t('sub-intro')}</p>
       </div>
       <div>
-        {/* NOTO: useing <a/> tag to prevent FOUC  */}
+        {/* NOTE: useing <a/> tag to prevent FOUC  */}
         <a href='/en'>in En</a>
         <br />
         <a href='/ja'>in Ja</a>
+        <Button size='lg' intent='accent'>
+          Contacts
+        </Button>
+        <Button size='lg'>Contacts</Button>
       </div>
     </>
   );

@@ -27,9 +27,10 @@ const config: Config = {
           hover: '#FDE1E5',
           action: '#FCD4DB',
         },
-        primarySolid: {
+        solid: {
           DEFAULT: '#E4526F',
-          second: '#DC4665',
+          hover: '#DC4665',
+          action: '#DC4665',
         },
         gray: {
           DEFAULT: '#F4F1F4',
