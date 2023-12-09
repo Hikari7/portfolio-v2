@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 const Home = () => {
@@ -10,9 +9,10 @@ const Home = () => {
         <p>{t('sub-intro')}</p>
       </div>
       <div>
-        <Link href='/en'>in En</Link>
+        {/* NOTO: useing <a/> tag to prevent FOUC  */}
+        <a href='/en'>in En</a>
         <br />
-        <Link href='/ja'>in Ja</Link>
+        <a href='/ja'>in Ja</a>
       </div>
     </>
   );

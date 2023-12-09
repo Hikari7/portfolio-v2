@@ -22,13 +22,11 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       {/* TODO:add ternary operator to set JP fonts*/}
-      {/* <NextIntlClientProvider messages={messages}> */}
       <body className={`${roboto.className} bg-[#FFFDFD]`}>
         {/* header */}
         {children}
         {/* social media icons */}
       </body>
-      {/* </NextIntlClientProvider> */}
     </html>
   );
 }
