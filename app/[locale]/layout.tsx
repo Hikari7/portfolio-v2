@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import './globals.css';
-import { roboto } from './lib/fonts';
+import { roboto, notoJP } from './lib/fonts';
 
 export const metadata: Metadata = {
   title: 'Hikari Kobe',
@@ -18,11 +18,12 @@ export default async function LocaleLayout({
   params: any;
 }) {
   if (!locales.includes(locale as any)) notFound();
-
+  const en = locale === 'en';
   return (
     <html lang={locale}>
-      {/* TODO:add ternary operator to set JP fonts*/}
-      <body className={`${roboto.className} bg-[#FFFDFD]`}>
+      <body
+        className={`${en ? roboto.className : notoJP.className} bg-[#FFFDFD]`}
+      >
         {/* header */}
         {children}
         {/* social media icons */}
