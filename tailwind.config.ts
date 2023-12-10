@@ -10,33 +10,24 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#C92D53',
-          accent: '#661931',
-        },
-        gray: {
-          DEFAULT: '#736F7A',
-        },
-        //textcolor
-        black: {
-          DEFAULT: '#28232F',
-        },
-      },
-      backgroundColor: {
-        primary: {
           DEFAULT: '#FEEDEF',
           hover: '#FDE1E5',
           action: '#FCD4DB',
-        },
-        solid: {
-          DEFAULT: '#E4526F',
-          hover: '#DC4665',
-          action: '#DC4665',
+          accent: '#C92D53',
+          accentDark: '#661931',
+          solid: '#E4526F',
+          solidHover: '#DC4665',
+          solidAction: '#DC4665',
         },
         gray: {
-          DEFAULT: '#F4F1F4',
-          hover: '#EDEAEE',
-          action: '#E7E4E9',
+          light: 'E8E8EC',
+          DEFAULT: '#D9D9E0',
+          dark: '#65636E',
+          hover: '#CDCED7',
+          action: '#B8BBC7',
         },
+        //textcolor
+        black: '#28232F',
       },
       borderColor: {
         primary: {
@@ -44,17 +35,24 @@ const config: Config = {
           intreractive: '#EEB5C0',
           focus: '#E49DAC',
         },
-        gray: {
-          uninteractive: '#E0DEE3',
-          intreractive: '#D6D4DC',
-          focus: '#C4C3CC',
+        // gray: {
+        //   uninteractive: '#E0DEE3',
+        //   intreractive: '#D6D4DC',
+        //   focus: '#C4C3CC',
+        // },
+      },
+      keyframes: {
+        slideDownAndFade: {
+          from: { opacity: '0', transform: 'translateY(-2px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
         },
       },
-      boxShadow: {
-        header: '4px 4px 10px 0px rgba(0, 0, 0, 0.24)',
-      },
     },
+    animation: {
+      slideDownAndFade: 'slideDownAndFade 400ms cubic-bezier(0.16, 1, 0.3, 1)',
+    },
+    plugins: [],
   },
-  plugins: [],
 };
+
 export default config;
