@@ -20,7 +20,7 @@ const config: Config = {
           solidAction: '#DC4665',
         },
         gray: {
-          light: 'E8E8EC',
+          light: '#E8E8EC',
           DEFAULT: '#D9D9E0',
           dark: '#65636E',
           hover: '#CDCED7',
@@ -36,11 +36,6 @@ const config: Config = {
           intreractive: '#EEB5C0',
           focus: '#E49DAC',
         },
-        // gray: {
-        //   uninteractive: '#E0DEE3',
-        //   intreractive: '#D6D4DC',
-        //   focus: '#C4C3CC',
-        // },
       },
       keyframes: {
         slideDownAndFade: {
