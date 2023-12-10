@@ -29,6 +29,7 @@ const config: Config = {
         //textcolor
         black: '#28232F',
       },
+
       borderColor: {
         primary: {
           uninteractive: '#F7C7CF',

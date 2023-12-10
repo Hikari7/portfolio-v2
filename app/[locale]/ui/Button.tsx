@@ -3,18 +3,19 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cx } from 'class-variance-authority';
 
 const buttonVariants = cva(
-  'items-center text-black transition-all duration-200',
+  'cursor-pointer items-center text-black transition-all duration-200',
   {
     variants: {
       intent: {
         default:
-          'action:bg-primary-action rounded-md bg-primary hover:bg-primary-hover',
+          'rounded-md bg-primary hover:bg-primary-hover active:bg-primary-action',
         solid:
-          'action:bg-solid-action rounded-md bg-solid text-white hover:bg-solid-hover',
+          'rounded-md bg-primary-solid text-white hover:bg-primary-solidHover active:bg-primary-solidAction',
         accent:
-          'action:bg-[#39141E] rounded-md bg-[#1E1617] text-white hover:bg-primary hover:text-black',
+          'rounded-md bg-[#1E1617] text-white hover:bg-primary hover:text-black active:bg-[#39141E]',
         outline:
           'rounded-md border border-primary-uninteractive bg-primary p-4 text-black hover:border-primary-intreractive active:border-primary-focus',
+        white: 'rounded-full bg-[#FFFDFD] shadow',
         link: 'rounded-md text-primary underline-offset-4 hover:underline',
       },
       size: {
