@@ -1,7 +1,7 @@
 import React from 'react';
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 
-import { Button } from './Button';
+import { Button } from '../Common/Button';
 import { IoLanguage } from 'react-icons/io5';
 const DropdownMenuDemo = () => {
   return (

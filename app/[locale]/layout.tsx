@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import './globals.css';
 import { roboto, notoJP } from './lib/fonts';
-import HeaderNav from './ui/HeaderNav';
-import { GradientDiv } from './ui/GradientDiv';
+import Header from './sections/Header';
+import { GradientDiv } from './ui/Common/GradientDiv';
 
 export const metadata: Metadata = {
   title: 'Hikari Kobe',
@@ -25,7 +25,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${en ? roboto.className : notoJP.className} `}>
         <GradientDiv className='[#FFFDFD] min-h-screen'>
-          <HeaderNav />
+          <Header />
           {children}
           {/* social media icons */}
         </GradientDiv>

@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cx } from 'class-variance-authority';
 
 const buttonVariants = cva(
-  'cursor-pointer items-center text-black transition-all duration-200',
+  'cursor-pointer items-center text-black outline-none transition-all duration-200',
   {
     variants: {
       intent: {

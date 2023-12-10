@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import { Button } from '../ui/Button';
+import { Button } from '../ui/Common/Button';
 
 const Home = () => {
   const t = useTranslations('Hero');
