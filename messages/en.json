@@ -1,7 +1,9 @@
 {
   "Hero": {
-    "intro": "Hello!",
-    "sub-intro": "I’m passionate about building beautiful interfaces & experiences"
+    "intro": "Hi there!",
+    "name": "Hikari Kobe",
+    "sub-intro": "I'm a design-minded Front-end Engineer,",
+    "sub-intro2": "passionate about crafting beautiful UI/UX"
   },
   "About": {
     "name": "Hikari"

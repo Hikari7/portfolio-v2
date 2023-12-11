@@ -6,7 +6,7 @@ import { Button } from '../ui/Common/Button';
 import DropdownMenuDemo from '../ui/Header/Dropdown';
 
 const headerTagStyles =
-  'cursor-pointer items-center text-center text-md text-gray-dark outline-none transition-all duration-200 hover:bg-primary-hover/50 hover:text-black hover:shadow py-[4px] px-[8px] rounded-sm';
+  'cursor-pointer items-center text-center text-md text-gray-dark outline-none transition-all duration-200 hover:bg-gray-hover/50 hover:text-black hover:shadow py-[4px] px-[8px] rounded-sm';
 
 const Header = () => {
   return (

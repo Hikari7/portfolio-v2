@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import './globals.css';
-import { roboto, notoJP } from './lib/fonts';
+import { roboto, notoJP, poppins } from './lib/fonts';
 import Header from './sections/Header';
 import { GradientDiv } from './ui/Common/GradientDiv';
 import SocialMediaDiv from './components/SocialMediaDiv';
@@ -24,7 +24,7 @@ export default async function LocaleLayout({
   const en = locale === 'en';
   return (
     <html lang={locale}>
-      <body className={`${en ? roboto.className : notoJP.className} m-0`}>
+      <body className={`${en ? poppins.className : poppins.className}`}>
         <GradientDiv className='[#FFFDFD]  min-h-screen'>
           <Header />
           {children}
