@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 
-.min-h-screen-100 {
-    min-height: calc(100vh - 100px);
+.min-h-screen-hero {
+    min-height: calc(100vh - 72px);
   }
