@@ -11,7 +11,7 @@ const headerTagStyles =
 const Header = () => {
   return (
     <div className='sticky top-0'>
-      <div className='mx-auto my-0 flex w-full max-w-7xl items-center justify-between px-4 pt-4 '>
+      <div className='mx-auto my-0 flex w-full items-center justify-between px-4 pt-4 lg:max-w-7xl '>
         <ul>
           <Button intent='white' className='rounded-full'>
             <IoMdMoon size={18} />

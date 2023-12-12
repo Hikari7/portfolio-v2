@@ -1,10 +1,13 @@
 {
   "Hero": {
     "intro": "はじめまして！",
-    "name":"Hikari Kobe",
+    "name": "Hikari Kobe",
     "sub-intro": "ユーザーフレンドリーなアプリを作ることが",
     "sub-intro2": "好きなフロントエンドエンジニアです",
     "contact": "お問い合わせ"
+  },
+  "Projects": {
+    "raxSummary": "コアアーキテクチャを作成し、Airbnbモデルをファッションに適応させ、衣服の貸し借り方法を簡素化するモバイルアプリケーション「rax」のフロントエンドを開発する機会を得ました。"
   },
   "About": {
     "name": "ひかり"
