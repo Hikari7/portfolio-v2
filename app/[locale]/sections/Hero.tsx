@@ -22,7 +22,7 @@ const Hero = () => {
               <h2>{t('sub-intro2')}</h2>
             </div>
           </div>
-          <Button intent='outline' className='w-60 items-center' size='xl'>
+          <Button intent='outline' className='items-center md:w-60' size='xl'>
             <a
               href='mailto:h.kobe712@gmail.com'
               className='flex flex-row justify-center gap-4'

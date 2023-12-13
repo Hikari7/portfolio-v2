@@ -29,7 +29,7 @@ export default async function LocaleLayout({
           en ? montserrat.className : montserrat.className
         } selection:bg-primary-hover`}
       >
-        <GradientDiv className='[#FFFDFD]  min-h-screen'>
+        <GradientDiv className='[#FFFDFD]  min-h-screen px-4'>
           <Header />
           {children}
           {/* Footer */}

@@ -3,7 +3,6 @@
 import { IoMdMoon } from 'react-icons/io';
 import React from 'react';
 import { Button } from '../ui/Common/Button';
-import DropdownMenuDemo from '../ui/Header/HeaderMenu';
 import HeaderMenu from '../ui/Header/HeaderMenu';
 
 const headerTagStyles =
@@ -12,7 +11,7 @@ const headerTagStyles =
 const Header = () => {
   return (
     <div className='sticky top-0'>
-      <div className='my-0 hidden w-full items-center justify-between px-4 pt-4 first-letter:mx-auto  md:flex lg:max-w-7xl'>
+      <div className='mx-auto my-0 hidden w-full items-center justify-between px-4 pt-4  first-letter:mx-auto md:flex lg:max-w-7xl'>
         <ul>
           <Button intent='white' className='rounded-full'>
             <IoMdMoon size={18} />

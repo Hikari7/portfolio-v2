@@ -8,7 +8,7 @@ type Skill = {
 const skillTag = ({ skill }: Skill) => {
   return (
     <span
-      className={`rounded-lg border border-primary-intreractive bg-primary-action px-2 py-1 text-xs font-thin ${roboto.className} text-primary-accentDark`}
+      className={`items-center rounded-lg  border border-primary-intreractive bg-primary-action px-2 py-1 text-center text-xs font-bold ${roboto.className} text-primary-accentDark`}
     >
       {skill}
     </span>

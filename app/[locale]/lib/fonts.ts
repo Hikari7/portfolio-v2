@@ -1,7 +1,7 @@
 import { Noto_Sans_JP, Roboto, Poppins, Montserrat,Shippori_Mincho } from 'next/font/google';
 
 export const roboto = Roboto({
-  weight: ['400', '500', '700'],
+  weight: ['300'],
   subsets: ['latin'],
   display: 'swap',
 });
