@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import './globals.css';
-import { roboto, notoJP } from './lib/fonts';
+import { roboto, notoJP, poppins, montserrat, shippori } from './lib/fonts';
 import Header from './sections/Header';
 import { GradientDiv } from './ui/Common/GradientDiv';
+import SocialMediaDiv from './components/SocialMediaDiv';
 
 export const metadata: Metadata = {
   title: 'Hikari Kobe',
@@ -23,11 +24,16 @@ export default async function LocaleLayout({
   const en = locale === 'en';
   return (
     <html lang={locale}>
-      <body className={`${en ? roboto.className : notoJP.className} `}>
-        <GradientDiv className='[#FFFDFD] min-h-screen'>
+      <body
+        className={`${
+          en ? montserrat.className : montserrat.className
+        } selection:bg-primary-hover`}
+      >
+        <GradientDiv className='[#FFFDFD] min-h-screen px-4 text-black'>
           <Header />
           {children}
-          {/* social media icons */}
+          {/* Footer */}
+          <SocialMediaDiv />
         </GradientDiv>
       </body>
     </html>
