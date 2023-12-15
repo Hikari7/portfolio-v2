@@ -4,11 +4,12 @@ import Image from 'next/image';
 import ExternalLink from '../ui/Common/ExternakLink';
 import Rax from '../components/Projects/Rax';
 import FotographerAI from '../components/Projects/FotographerAI';
+import Appointly from '../components/Projects/Appointly';
 
 const Projects = () => {
   const t = useTranslations('Projects');
   return (
-    <div className='min-h-screen-hero  mx-auto flex w-full max-w-lg flex-col md:max-w-md lg:max-w-5xl'>
+    <div className='min-h-screen-hero  mx-auto flex w-full max-w-lg flex-col md:max-w-md lg:max-w-7xl'>
       <h2 className='mb-8 text-left text-lg font-bold tracking-wider text-primary-solid'>
         Featured Projects
       </h2>
@@ -26,8 +27,8 @@ const Projects = () => {
                 />
                 <Image
                   src='/products-rax-desktop.png'
-                  width={500}
-                  height={600}
+                  width={630}
+                  height={630}
                   className='hidden md:block'
                   alt='Screenshots of the rax product'
                 />
@@ -38,12 +39,25 @@ const Projects = () => {
         </div>
         <div className='flex flex-col gap-8 lg:ml-auto lg:w-[80%] lg:flex-row'>
           <div className='lg:mt-0'>
-            <ExternalLink href='/fotographerAI.png'>
+            <ExternalLink href='https://appointly-mtg.vercel.app/'>
+              <Image
+                src='/appointly.png'
+                width={630}
+                height={630}
+                alt='Screenshots of the appointly project'
+              />
+            </ExternalLink>
+          </div>
+          <Appointly />
+        </div>
+        <div className='flex flex-col gap-8 lg:ml-auto lg:w-[80%] lg:flex-row'>
+          <div className='lg:mt-0'>
+            <ExternalLink href='https://fotographer.ai/case'>
               <Image
                 src='/fotographerAI.png'
-                width={500}
-                height={600}
-                alt='Screenshots of the rax product'
+                width={630}
+                height={630}
+                alt='Screenshots of the fotographerAI owned media'
               />
             </ExternalLink>
           </div>
