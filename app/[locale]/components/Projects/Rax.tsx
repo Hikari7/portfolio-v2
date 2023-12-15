@@ -2,7 +2,7 @@ import React from 'react';
 import ExternalLink from '../../ui/Common/ExternakLink';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { roboto } from '../../lib/fonts';
-import { SkillTagGroup, Skill } from './SkillTag';
+import { SkillTagGroup, Skill } from './SkillTagGroup';
 import { useTranslations } from 'next-intl';
 
 const ProjectCard = () => {
