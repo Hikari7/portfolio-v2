@@ -22,11 +22,11 @@ const ProjectCard = () => {
         <div className='flex flex-wrap gap-2'>
           <SkillTagGroup
             skills={[
-              Skill.TypeScript,
-              Skill.ReactNative,
-              Skill.Redux,
-              Skill.CSSModules,
-              Skill.Supabase,
+              'TypeScript',
+              'React Native',
+              'Redux',
+              'CSS Modules',
+              'Supabase',
             ]}
           />
         </div>
