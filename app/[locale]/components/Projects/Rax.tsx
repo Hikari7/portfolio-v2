@@ -2,10 +2,10 @@ import React from 'react';
 import ExternalLink from '../../ui/Common/ExternakLink';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { roboto } from '../../lib/fonts';
-import { SkillTagGroup, Skill } from './SkillTagGroup';
+import { SkillTagGroup } from './SkillTagGroup';
 import { useTranslations } from 'next-intl';
 
-const ProjectCard = () => {
+const Rax = () => {
   const t = useTranslations('Projects');
   return (
     <div className='ml-auto w-full lg:w-1/3'>
@@ -17,7 +17,7 @@ const ProjectCard = () => {
       </ExternalLink>
       <div className='mt-4 flex flex-col gap-4'>
         <p className={`block ${roboto.className} text-sm leading-relaxed`}>
-          {t('raxSummary')}
+          {t('fotographerAiSummary')}
         </p>
         <div className='flex flex-wrap gap-2'>
           <SkillTagGroup
@@ -35,4 +35,4 @@ const ProjectCard = () => {
   );
 };
 
-export default ProjectCard;
+export default Rax;
