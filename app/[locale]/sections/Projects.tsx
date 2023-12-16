@@ -13,7 +13,7 @@ const Projects = () => {
       <h2 className='mb-8 text-left text-lg font-bold tracking-wider text-primary-solid'>
         Featured Projects
       </h2>
-      <div className='flex flex-col gap-12'>
+      <div className='flex flex-col gap-12 lg:gap-24'>
         <div className='lg:flex'>
           <div className='gap-8 lg:ml-auto lg:flex lg:w-[80%]'>
             <div className='my-auto'>
