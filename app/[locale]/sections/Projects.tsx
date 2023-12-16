@@ -5,6 +5,8 @@ import ExternalLink from '../ui/Common/ExternakLink';
 import Rax from '../components/Projects/Rax';
 import FotographerAI from '../components/Projects/FotographerAI';
 import Appointly from '../components/Projects/Appointly';
+import Portfolio from '../components/Projects/Portfolio';
+import NoteApp from '../components/Projects/Note';
 
 const Projects = () => {
   const t = useTranslations('Projects');
@@ -62,6 +64,26 @@ const Projects = () => {
             </ExternalLink>
           </div>
           <FotographerAI />
+        </div>
+      </div>
+      <div className='mt-24'>
+        <div className='hidden lg:ml-auto lg:flex lg:w-[80%] lg:gap-8'>
+          <h2 className='mb-6 text-left text-lg font-bold tracking-wider text-gray-dark lg:mb-0'>
+            Other Projects
+          </h2>
+          <div className='flex flex-col gap-6'>
+            <Portfolio />
+            <NoteApp />
+          </div>
+        </div>
+        <div className='block gap-8 lg:hidden'>
+          <h2 className='mb-6 text-left text-lg font-bold tracking-wider text-gray-dark lg:mb-0'>
+            Other Projects
+          </h2>
+          <div className='flex flex-col gap-6'>
+            <Portfolio />
+            <NoteApp />
+          </div>
         </div>
       </div>
     </div>
