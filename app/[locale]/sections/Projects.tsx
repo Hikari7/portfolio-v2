@@ -67,13 +67,15 @@ const Projects = () => {
         </div>
       </div>
       <div className='mt-24'>
-        <div className='hidden lg:ml-auto lg:flex lg:w-[80%] lg:gap-8'>
+        <div className='hidden  lg:flex'>
           <h2 className='mb-6 text-left text-lg font-bold tracking-wider text-gray-dark lg:mb-0'>
             Other Projects
           </h2>
-          <div className='flex flex-col gap-6'>
-            <Portfolio />
-            <NoteApp />
+          <div className='lg:ml-auto lg:w-[80%] lg:gap-8'>
+            <div className='flex flex-col gap-6'>
+              <Portfolio />
+              <NoteApp />
+            </div>
           </div>
         </div>
         <div className='block gap-8 lg:hidden'>

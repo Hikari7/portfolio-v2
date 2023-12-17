@@ -9,22 +9,26 @@ const Appointly = () => {
   const t = useTranslations('Projects');
   return (
     <div className='ml-auto w-full lg:w-1/3'>
-      <div className='flex gap-4'>
+      <div className='flex gap-2'>
         <ExternalLink href='https://appointly-mtg.vercel.app/'>
           <span className='flex cursor-pointer items-center gap-1 hover:opacity-60'>
             <h3 className='text-lg font-semibold'>Appointly</h3>
-            <FaExternalLinkAlt />
+            <FaExternalLinkAlt size={18} />
           </span>
+        </ExternalLink>
+        <ExternalLink
+          href='https://github.com/Hikari7/Appointly'
+          className='my-auto hover:opacity-60'
+        >
+          <FaGithub size={22} />
         </ExternalLink>
       </div>
       <p className='text-xs text-gray-dark'>My personal project</p>
       <ExternalLink
         href='https://github.com/Hikari7/Appointly'
         className='flex items-center gap-2 hover:opacity-60'
-      >
-        <p>See the Github repository 👉</p>
-        <FaGithub />
-      </ExternalLink>
+      ></ExternalLink>
+
       <div className={`mt-4 flex flex-col gap-4 ${roboto.className}`}>
         <p className={`block  text-sm leading-relaxed`}>
           {t('AppointlySummary')}
