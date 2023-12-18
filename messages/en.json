@@ -15,6 +15,6 @@
     "NoteAppSummary": "A Notion like CRUD app built with MERN stack"
   },
   "About": {
-    "name": "Hikari"
+    "desc": "After completing a course in Web Development at a Canadian college, I am concurrently interning as a Front-End Engineer at a Canadian startup while also working on multiple projects for Japanese companies as a freelancer. I specialize in front-end development using React.js, React Native, and TypeScript, but also handle design creation using Figma.    I am focused on developing user-friendly web applications and excel at incorporating popular CSS frameworks such as Tailwind CSS and MUI to build applications."
   }
 }

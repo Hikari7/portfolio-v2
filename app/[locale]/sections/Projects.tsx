@@ -66,7 +66,7 @@ const Projects = () => {
           <FotographerAI />
         </div>
       </div>
-      <div className='mt-24'>
+      <div className='mt-8'>
         <div className='hidden  lg:flex'>
           <h2 className='mb-6 text-left text-lg font-bold tracking-wider text-gray-dark lg:mb-0'>
             Other Projects
@@ -78,8 +78,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className='block gap-8 lg:hidden'>
-          <h2 className='mb-6 text-left text-lg font-bold tracking-wider text-gray-dark lg:mb-0'>
+        <div className='block gap-4 lg:hidden'>
+          <h2 className='mb-2 text-left text-lg font-bold tracking-wider text-gray-dark lg:mb-0'>
             Other Projects
           </h2>
           <div className='flex flex-col gap-6'>

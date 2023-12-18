@@ -17,7 +17,7 @@ const Portfolio = () => {
           >
             <h3 className='text-lg font-semibold'>Portfolio</h3>
             <div className='my-auto'>
-              <FaGithub size={24} />
+              <FaGithub size={18} />
             </div>
           </ExternalLink>
         </span>
