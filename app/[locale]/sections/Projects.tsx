@@ -43,7 +43,7 @@ const Projects = () => {
           <div className='lg:mt-0'>
             <ExternalLink href='https://appointly-mtg.vercel.app/'>
               <Image
-                src='/appointly.png'
+                src='/products-appointly.png'
                 width={630}
                 height={630}
                 alt='Screenshots of the appointly project'
