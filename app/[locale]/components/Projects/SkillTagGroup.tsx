@@ -14,7 +14,12 @@ export type Skill =
   | 'Firebase'
   | 'Next.js'
   | 'MUI'
-  | 'MERN Stack';
+  | 'MERN Stack'
+  | 'HTML5'
+  | 'CSS3'
+  | 'Git'
+  | 'Figma'
+  | 'Storybook';
 
 const skillTagClassName = `items-center rounded-lg border border-primary-interactive bg-primary-action px-2 py-1 text-center text-xs font-bold ${roboto.className} text-primary-accentDark`;
 

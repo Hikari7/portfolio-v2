@@ -21,7 +21,7 @@ const Portfolio = () => {
             </div>
           </ExternalLink>
         </span>
-        <p className={`block ${roboto.className} text-sm leading-relaxed `}>
+        <p className={`block ${roboto.className} text-sm leading-relaxed`}>
           {t('PortfolioSummary')}
         </p>
       </div>
