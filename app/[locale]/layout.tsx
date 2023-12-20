@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import './globals.css';
 import { roboto, notoJP, poppins, montserrat, shippori } from './lib/fonts';
-import Header from './sections/Header';
+import Header from './components/Header';
 import { GradientDiv } from './ui/Common/GradientDiv';
 import SocialMediaDiv from './components/SocialMediaDiv';
 

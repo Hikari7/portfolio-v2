@@ -11,7 +11,10 @@ import NoteApp from '../components/Projects/Note';
 const Projects = () => {
   const t = useTranslations('Projects');
   return (
-    <div className='min-h-screen-hero  mx-auto flex w-full max-w-lg flex-col md:max-w-md lg:max-w-7xl'>
+    <div
+      id='projects'
+      className='min-h-screen-hero  mx-auto flex w-full max-w-lg flex-col md:max-w-md lg:max-w-7xl'
+    >
       <h2 className='mb-8 text-left text-lg font-bold tracking-wider text-primary-solid'>
         Featured Projects
       </h2>
