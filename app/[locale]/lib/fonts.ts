@@ -1,7 +1,19 @@
-import { Noto_Sans_JP, Roboto, Poppins, Montserrat,Shippori_Mincho } from 'next/font/google';
+import {
+  Noto_Sans_JP,
+  Roboto,
+  Poppins,
+  Montserrat,
+  Shippori_Mincho,
+} from 'next/font/google';
 
 export const roboto = Roboto({
   weight: ['300'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+export const robotoBold = Roboto({
+  weight: ['500'],
   subsets: ['latin'],
   display: 'swap',
 });

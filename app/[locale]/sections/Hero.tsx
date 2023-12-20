@@ -11,10 +11,10 @@ const Hero = () => {
       <div className='my-auto items-center text-black'>
         <div className='flex flex-col gap-6'>
           <div>
-            <h1 className='text-[24px]  lg:text-[32px]'>{t('intro')}</h1>
+            <h1 className='text-[24px] lg:text-[32px]'>{t('intro')}</h1>
           </div>
           <div>
-            <h1 className='text-[50px] font-bold tracking-wider text-primary-solid lg:text-[80px] '>
+            <h1 className='text-[50px] font-bold tracking-wider text-primary-solid lg:text-[80px]'>
               {t('name')}
             </h1>
             <div className='text-[18px] font-light text-gray-dark lg:text-[24px]'>
@@ -22,7 +22,11 @@ const Hero = () => {
               <h2>{t('sub-intro2')}</h2>
             </div>
           </div>
-          <Button intent='outline' className='items-center md:w-60' size='xl'>
+          <Button
+            intent='outline'
+            className='w-2/3 items-center md:w-60'
+            size='xl'
+          >
             <a
               href='mailto:h.kobe712@gmail.com'
               className='flex flex-row justify-center gap-4'

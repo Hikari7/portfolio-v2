@@ -4,6 +4,7 @@ import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 import { IoMdMenu } from 'react-icons/io';
 import { Button } from '../Common/Button';
 import { IoLanguage } from 'react-icons/io5';
+import { Link as Scroll } from 'react-scroll';
 
 type HeaderMenuType = {
   isSP: boolean;
@@ -30,13 +31,19 @@ const HeaderMenu = ({ isSP }: HeaderMenuType) => {
           {isSP && (
             <>
               <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
-                <a href=''>Project</a>
+                <Scroll to='projects' smooth={true} offset={-60}>
+                  Project
+                </Scroll>
               </DropdownMenu.Item>
               <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
-                <a href=''>About</a>
+                <Scroll to='about' smooth={true} offset={-60}>
+                  About
+                </Scroll>
               </DropdownMenu.Item>
               <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
-                <a href=''>Experience</a>
+                <Scroll to='experience' smooth={true} offset={-60}>
+                  Experience
+                </Scroll>
               </DropdownMenu.Item>
               <div>
                 <DropdownMenu.Separator className='m-[5px] h-[1px] bg-gray' />
