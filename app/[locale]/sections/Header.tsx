@@ -23,7 +23,7 @@ const Header = () => {
         </ul>
         <ul className='my-auto flex items-center gap-3'>
           <a>
-            <span className={headerTagStyles}>Project</span>
+            <span className={headerTagStyles}>Projects</span>
           </a>
           <a>
             <span className={headerTagStyles}>About</span>
