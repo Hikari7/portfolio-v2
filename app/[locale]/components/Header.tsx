@@ -1,6 +1,5 @@
 'use client';
 
-import { IoMdMoon } from 'react-icons/io';
 import React from 'react';
 import { Button } from '../ui/Common/Button';
 import HeaderMenu from '../ui/Header/HeaderMenu';
@@ -38,7 +37,9 @@ const Header = () => {
       </div>
       <div className='mx-auto my-0 flex w-11/12 items-center justify-between px-4 pt-4 md:hidden'>
         <Button intent='white' className='rounded-full'>
-          <IoMdMoon size={18} />
+          <Scroll to='hero' smooth={true} offset={-60}>
+            <FaHome size={18} />
+          </Scroll>
         </Button>
         <HeaderMenu isSP={true} />
       </div>
