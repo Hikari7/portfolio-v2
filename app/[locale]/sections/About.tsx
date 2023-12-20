@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id='about'
-      className='min-h-screen-hero mx-auto flex w-full max-w-lg flex-col md:max-w-md lg:max-w-7xl'
+      className='mx-auto flex w-full max-w-lg flex-col md:max-w-md lg:max-w-7xl'
     >
       <div className='lg:flex'>
         <h2 className='mb-8 text-left text-lg font-bold tracking-wider text-primary-solid'>
