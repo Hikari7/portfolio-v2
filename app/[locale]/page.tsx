@@ -3,6 +3,7 @@ import Hero from './sections/Hero';
 import Projects from './sections/Projects';
 import About from './sections/About';
 import Experience from './sections/Experience';
+import Footer from './components/Footer';
 
 export default function Main() {
   return (
@@ -12,6 +13,7 @@ export default function Main() {
         <Projects />
         <About />
         <Experience />
+        <Footer />
       </div>
     </Suspense>
   );
