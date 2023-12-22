@@ -27,7 +27,7 @@ export default async function LocaleLayout({
       <body
         className={`${
           en ? montserrat.className : montserrat.className
-        } selection:bg-primary-hover`}
+        }  selection:bg-primary-hover`}
       >
         <GradientDiv className='[#FFFDFD] min-h-screen  text-black'>
           <Header />
