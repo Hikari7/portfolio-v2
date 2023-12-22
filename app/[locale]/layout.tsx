@@ -1,14 +1,16 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import './globals.css';
-import { roboto, notoJP, poppins, montserrat, shippori } from './lib/fonts';
+import { montserrat } from './lib/fonts';
 import Header from './components/Header';
 import { GradientDiv } from './ui/Common/GradientDiv';
 import SocialMediaDiv from './components/SocialMediaDiv';
+import Favicon from '../../favicon.png';
 
 export const metadata: Metadata = {
-  title: 'Hikari Kobe',
+  title: 'Hikari | Portfolio',
   description: 'A design-minded Front-end Engineer',
+  icons: [{ rel: 'icon', url: Favicon.src }],
 };
 
 const locales = ['en', 'ja'];

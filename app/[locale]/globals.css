@@ -11,8 +11,8 @@
   background: linear-gradient(300deg, #fff7c2, #ffced6, #f2e2fc, #fff7c2);
   border-radius: 50%;
   filter: blur(70px);
-  width: min(100%, 700px);
-  height: min(100%, 600px);
+  width: min(80%, 600px);
+  height: min(100%, 500px);
   animation: gradient-animation 5s ease infinite;
   background-size: 200% 200%;
 }
