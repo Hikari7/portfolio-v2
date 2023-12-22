@@ -6,9 +6,7 @@ import dynamic from 'next/dynamic';
 const Experience = () => {
   const DynamicResumeLink = dynamic(
     () => import('../components/Experience/ResumeLink'),
-    {
-      ssr: false,
-    }
+    { ssr: false }
   );
 
   return (
@@ -55,7 +53,7 @@ const Experience = () => {
               <Client
                 name={'株式会社 EasyTechnology'}
                 role={'Designer assistant'}
-                term={'Jun 2023 - Jun 2023'}
+                term={'Apr 2023 - Jun 2023'}
               />
             </div>
             <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>

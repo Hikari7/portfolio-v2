@@ -8,12 +8,12 @@
 
 .gradiation-container {
   aspect-ratio: 1 / 1;
-  background: linear-gradient(300deg, #fff7c2, #ffced6, #f2e2fc, #fff7c2);
+  background: linear-gradient(300deg, #fff7c2, #ffced6, #ead5f9);
   border-radius: 50%;
   filter: blur(70px);
   width: min(80%, 600px);
   height: min(100%, 500px);
-  animation: gradient-animation 5s ease infinite;
+  animation: gradient-animation 3s ease infinite;
   background-size: 200% 200%;
 }
 
