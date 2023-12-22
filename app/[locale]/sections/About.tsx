@@ -44,7 +44,7 @@ const About = () => {
                 width={180}
                 height={180}
                 alt='profile image'
-                className='mx-auto items-center justify-center rounded-full'
+                className='mx-auto items-center justify-center rounded-full lg:ml-auto'
               />
             </div>
           </div>
