@@ -32,7 +32,6 @@ export default async function LocaleLayout({
         <GradientDiv className='[#FFFDFD] min-h-screen  text-black'>
           <Header />
           {children}
-          {/* Footer */}
           <SocialMediaDiv />
         </GradientDiv>
       </body>

@@ -14,7 +14,7 @@ const Header = () => {
   const { isHeaderScrolled } = useHeaderScroll(800);
   return (
     <div className={`sticky top-0 ${isHeaderScrolled && 'backdrop-blur-sm'}`}>
-      <div className='mx-auto my-0 hidden w-full items-center justify-between px-4 pt-4 first-letter:mx-auto md:flex lg:max-w-7xl'>
+      <div className='mx-auto my-0 hidden w-full items-center justify-between px-4 py-2 first-letter:mx-auto md:flex lg:max-w-7xl'>
         <ul>
           <Scroll to='hero' smooth={true} offset={-60}>
             <Button intent='white' className='rounded-full'>
@@ -35,7 +35,7 @@ const Header = () => {
           <HeaderMenu isSP={false} />
         </ul>
       </div>
-      <div className='mx-auto my-0 flex w-11/12 items-center justify-between px-4 pt-4 md:hidden'>
+      <div className='mx-auto my-0 flex w-11/12 items-center justify-between px-4 py-2 md:hidden'>
         <Button intent='white' className='rounded-full'>
           <Scroll to='hero' smooth={true} offset={-60}>
             <FaHome size={18} />

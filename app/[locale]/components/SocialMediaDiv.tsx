@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaXTwitter, FaLinkedin } from 'react-icons/fa6';
 import ExternalLink from '../ui/Common/ExternakLink';
+import { IoMdMail } from 'react-icons/io';
 
 const SocialMediaDiv = () => {
   return (
@@ -15,6 +16,9 @@ const SocialMediaDiv = () => {
       <ExternalLink href='https://www.linkedin.com/in/hikari-kobe/'>
         <FaLinkedin size={28} className='hover:opacity-60' />
       </ExternalLink>
+      <a href='mailto:h.kobe712@gmail.com' className='hover:opacity-60'>
+        <IoMdMail size={28} className='my-auto' />
+      </a>
     </div>
   );
 };
