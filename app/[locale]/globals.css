@@ -2,7 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .min-h-screen-hero {
-    min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 72px);
+}
+
+.gradiation-container {
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(300deg, #fff7c2, #ffced6, #f2e2fc, #fff7c2);
+  border-radius: 50%;
+  filter: blur(70px);
+  width: min(100%, 700px);
+  height: min(100%, 600px);
+  animation: gradient-animation 5s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

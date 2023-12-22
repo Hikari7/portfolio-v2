@@ -8,7 +8,7 @@ const Skills = () => {
         Skills
       </h2>
       <div className='flex lg:ml-auto lg:flex lg:w-[80%] '>
-        <div className='flex w-full justify-between lg:justify-normal lg:gap-8'>
+        <div className='flex w-full flex-wrap justify-between lg:justify-normal lg:gap-8'>
           <div>
             <span className='font-bold'>LANGUAGES</span>
             <ul className={`${roboto.className} my-2`}>

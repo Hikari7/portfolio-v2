@@ -7,8 +7,9 @@ const Hero = () => {
   const t = useTranslations('Hero');
 
   return (
-    <div className='min-h-screen-hero  mx-auto flex w-full max-w-lg flex-col  md:max-w-xl lg:max-w-6xl'>
-      <div className='my-auto items-center text-black'>
+    <div className=' min-h-screen-hero  mx-auto flex w-full max-w-lg flex-col  md:max-w-xl lg:max-w-6xl'>
+      <div className='gradiation-container absolute' />
+      <div className='relative my-auto items-center text-black'>
         <div className='flex flex-col gap-6'>
           <div>
             <h1 className='text-[24px] lg:text-[32px]'>{t('intro')}</h1>

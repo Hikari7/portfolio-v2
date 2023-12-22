@@ -1,8 +1,16 @@
 import React from 'react';
 import Client from '../components/Experience/Client';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 
 const Experience = () => {
+  const DynamicResumeLink = dynamic(
+    () => import('../components/Experience/ResumeLink'),
+    {
+      ssr: false,
+    }
+  );
+
   return (
     <div
       id='experience'
@@ -60,9 +68,7 @@ const Experience = () => {
           </div>
         </div>
         <span>
-          <p className='mt-4 hover:text-gray-dark lg:ml-auto lg:w-[80%]'>
-            <Link href='/resume.pdf'>View full resume (English) →</Link>
-          </p>
+          <DynamicResumeLink />
         </span>
       </div>
     </div>

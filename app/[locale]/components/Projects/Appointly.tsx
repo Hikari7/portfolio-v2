@@ -34,20 +34,23 @@ const Appointly = () => {
           {t('AppointlySummary')}
         </p>
         <div>
-          <p className='block text-xs leading-relaxed'>{t('AppointlyDemo')}</p>
-          <ul className='text-xs text-primary-accentDark'>
+          <p className='items-center text-xs  text-primary-accentDark'>
+            <ExternalLink
+              href='https://x.com/hk_Vancouver/status/1653588900278063104?s=20'
+              className='flex items-center hover:opacity-60'
+            >
+              {t('AppointlyReview')}
+              <FaExternalLinkAlt size={12} />
+            </ExternalLink>
+          </p>
+          <p className='block text-xs leading-relaxed  text-primary-accentDark'>{t('AppointlyDemo')}</p>
+          <ul className='text-xs'>
             <li>
-              username:
-              <span className='border-b-[1px] border-primary-accentDark'>
-                test2023@gmail.com
-              </span>
+              username:{' '}
+              <span className='border-b-[1px]'>test2023@gmail.com</span>
             </li>
             <li>
-              passowrd:{' '}
-              <span className='border-b-[1px] border-primary-accentDark'>
-                {' '}
-                Password123!?
-              </span>
+              passowrd: <span className='border-b-[1px]'>Password123!?</span>
             </li>
           </ul>
         </div>
