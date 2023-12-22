@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * TODO: it's temporary, will get back to this...maybe.
+ * TODO: it's a temporary, will get back to this...maybe.
  */
 
 import React, { useState, useEffect } from 'react';
@@ -35,7 +35,7 @@ export const GradientDiv: React.FC<GradientDivProps> = ({
     <div
       style={{
         // backgroundImage: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, #F4FBDF, #FFE9F0)`,
-        backgroundImage: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, #FDF7FD, #FFE9F0)`,
+        backgroundImage: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, #FDF7FD, #FBF7FE)`,
       }}
       className={className}
     >
