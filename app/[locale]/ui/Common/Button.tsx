@@ -12,7 +12,7 @@ const buttonVariants = cva(
         solid:
           'rounded-md bg-primary-solid text-white hover:bg-primary-solidHover active:bg-primary-solidAction',
         accent:
-          'rounded-md bg-[#1E1617] text-white hover:bg-primary hover:text-black active:bg-[#39141E]',
+          'rounded-md bg-[#1E1617] text-white hover:bg-primary-solid hover:text-black active:bg-[#39141E]',
         outline:
           'rounded-md border border-primary-uninteractive bg-primary text-black hover:border-primary-intreractive active:border-primary-focus',
         white: 'rounded-full bg-[#FFFDFD] shadow',

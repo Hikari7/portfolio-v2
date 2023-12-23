@@ -51,10 +51,10 @@ const HeaderMenu = ({ isSP }: HeaderMenuType) => {
             </>
           )}
           <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
-            <a href='/en'>English</a>
+            <a href='/en'>🇨🇦 English</a>
           </DropdownMenu.Item>
           <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
-            <a href='/ja'>日本語</a>
+            <a href='/ja'>🇯🇵 日本語</a>
           </DropdownMenu.Item>
           <DropdownMenu.Arrow className='fill-white' />
         </DropdownMenu.Content>
