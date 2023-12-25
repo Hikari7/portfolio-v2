@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
           <Button
             intent='accent'
-            className='w-2/3 items-center md:w-60'
+            className='w-5/12 items-center lg:w-60'
             size='xl'
           >
             <a

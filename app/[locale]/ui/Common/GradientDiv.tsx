@@ -35,7 +35,7 @@ export const GradientDiv: React.FC<GradientDivProps> = ({
     <div
       style={{
         // backgroundImage: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, #F4FBDF, #FFE9F0)`,
-        backgroundImage: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, #FDF7FD, #FBF7FE)`,
+        backgroundImage: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, #FFFCFD, #FBF7FE)`,
       }}
       className={className}
     >
