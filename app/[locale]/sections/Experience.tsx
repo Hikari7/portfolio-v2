@@ -23,7 +23,7 @@ const Experience = () => {
           <div className='flex flex-col gap-4 lg:ml-auto lg:w-[80%]'>
             <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>
               <Client
-                name={'rax'}
+                name={'rax App Inc.'}
                 role={'Mobile Front-end developer'}
                 term={'Aug 2023 - Present'}
               />
