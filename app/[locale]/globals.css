@@ -8,7 +8,7 @@
 
 .gradiation-container {
   aspect-ratio: 1 / 1;
-  background: linear-gradient(300deg, #fff7c2, #ffced6, #CBCDFF);
+  background: linear-gradient(300deg, #fff7c2, #ffced6, #cbcdff);
   border-radius: 50%;
   filter: blur(70px);
   width: min(80%, 600px);
