@@ -23,19 +23,32 @@ const Hero = () => {
               <h2>{t('sub-intro2')}</h2>
             </div>
           </div>
-          <Button
-            intent='accent'
-            className='w-5/12 items-center lg:w-60'
-            size='xl'
-          >
-            <a
-              href='mailto:h.kobe712@gmail.com'
-              className='flex flex-row justify-center gap-4'
+          <div className='hidden lg:block'>
+            <Button
+              intent='accent'
+              className='w-5/12 items-center lg:w-60'
+              size='xl'
             >
-              <CiMail size={24} className='my-auto' />
-              {t('contact')}
-            </a>
-          </Button>
+              <a
+                href='mailto:h.kobe712@gmail.com'
+                className='flex flex-row justify-center gap-4'
+              >
+                <CiMail size={24} className='my-auto' />
+                {t('contact')}
+              </a>
+            </Button>
+          </div>
+          <div className='block lg:hidden'>
+            <Button intent='accent' className=' items-center'>
+              <a
+                href='mailto:h.kobe712@gmail.com'
+                className='flex flex-row justify-center gap-4'
+              >
+                <CiMail size={24} className='my-auto' />
+                {t('contact')}
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </div>
