@@ -9,6 +9,7 @@
   "Projects": {
     "raxSummary": "A mobile app that offers clothing rental services, applying Airbnb's business model. Currently, our team is working on migrating the existing app to React Native to enhance its performance. I am responsible for developing the core components of the app, including the product listing home screen, product registration screen, and chat functionality. Utilizing agile development methods, I am focusing on improving the app's user experience by efficiently collaborating with team members.",
     "fotographerAiSummary": "I was entrusted with designing and developing a client's owned media site. I am creating a database for the article pages using Firebase. Created this within just a week to meet the deadline.",
+    "AppointlyReview": "See the reviews",
     "AppointlySummary": "A web app that simplifies the scheduling of meetings and similar events. The organizer sets available times in a calendar, after which participants can book from these options. The organizer is then automatically notified by email about the bookings.",
     "AppointlyDemo": "You can try the demo with the below login info!",
     "PortfolioSummary": "My portfolio site built with React.js and Next.js",
