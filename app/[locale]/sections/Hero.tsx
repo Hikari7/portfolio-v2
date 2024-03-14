@@ -24,30 +24,30 @@ const Hero = () => {
             </div>
           </div>
           <div className='hidden lg:block'>
-            <Button
-              intent='accent'
+            <a
+              href='mailto:h.kobe712@gmail.com'
               className='w-5/12 items-center lg:w-60'
-              size='xl'
             >
-              <a
-                href='mailto:h.kobe712@gmail.com'
+              <Button
+                intent='accent'
                 className='flex flex-row justify-center gap-4'
+                size='xl'
               >
                 <CiMail size={24} className='my-auto' />
                 {t('contact')}
-              </a>
-            </Button>
+              </Button>
+            </a>
           </div>
           <div className='block lg:hidden'>
-            <Button intent='accent' className=' items-center'>
-              <a
-                href='mailto:h.kobe712@gmail.com'
+            <a href='mailto:h.kobe712@gmail.com' className='items-center'>
+              <Button
+                intent='accent'
                 className='flex flex-row justify-center gap-4'
               >
                 <CiMail size={24} className='my-auto' />
                 {t('contact')}
-              </a>
-            </Button>
+              </Button>
+            </a>
           </div>
         </div>
       </div>
