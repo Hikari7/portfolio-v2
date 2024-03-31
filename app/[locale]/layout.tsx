@@ -5,7 +5,7 @@ import { montserrat } from './lib/fonts';
 import Header from './components/Header';
 import { GradientDiv } from './ui/Common/GradientDiv';
 import SocialMediaDiv from './components/SocialMediaDiv';
-import Favicon from '../../favicon.png';
+import Favicon from '../../public/favicon.png';
 
 export const metadata: Metadata = {
   title: 'Hikari | Portfolio',
