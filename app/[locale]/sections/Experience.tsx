@@ -25,7 +25,7 @@ const Experience = () => {
               <Client
                 name={'Money Forward, Inc.'}
                 role={'Web Front-end developer'}
-                term={'May 2024 - Present'}
+                term={'March 2024 - Present'}
               />
             </div>
             <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>
