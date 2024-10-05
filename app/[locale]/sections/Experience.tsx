@@ -23,23 +23,30 @@ const Experience = () => {
           <div className='flex flex-col gap-4 lg:ml-auto lg:w-[80%]'>
             <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>
               <Client
+                name={'Money Forward, Inc.'}
+                role={'Web Front-end developer'}
+                term={'March 2024 - Present'}
+              />
+            </div>
+            <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>
+              <Client
                 name={'rax App Inc.'}
                 role={'Mobile Front-end developer'}
-                term={'Aug 2023 - Present'}
+                term={'Aug 2023 - Jan 2024'}
               />
             </div>
             <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>
               <Client
                 name={'株式会社Lbose'}
                 role={'Web Front-end developer'}
-                term={'Aug 2023 - Present'}
+                term={'Aug 2023 - Feb 2024'}
               />
             </div>
             <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>
               <Client
                 name={'株式会社アプロリンク'}
                 role={'Web Front-end developer, Web designer'}
-                term={'May 2023 - Present'}
+                term={'May 2023 - Dec 2024'}
               />
             </div>
             <div className='flex flex-col lg:w-3/4 lg:flex-row lg:justify-between'>

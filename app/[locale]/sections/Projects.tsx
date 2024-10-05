@@ -3,7 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 import ExternalLink from '../ui/Common/ExternakLink';
 import Rax from '../components/Projects/Rax';
-import FotographerAI from '../components/Projects/FotographerAI';
 import Appointly from '../components/Projects/Appointly';
 import Portfolio from '../components/Projects/Portfolio';
 import NoteApp from '../components/Projects/Note';
@@ -54,19 +53,6 @@ const Projects = () => {
             </ExternalLink>
           </div>
           <Appointly />
-        </div>
-        <div className='flex flex-col gap-8 lg:ml-auto lg:w-[80%] lg:flex-row'>
-          <div className='lg:mt-0'>
-            <ExternalLink href='https://fotographer.ai/case'>
-              <Image
-                src='/fotographerAI.png'
-                width={630}
-                height={630}
-                alt='Screenshots of the fotographerAI owned media'
-              />
-            </ExternalLink>
-          </div>
-          <FotographerAI />
         </div>
       </div>
       <div className='mt-8'>
