@@ -1,12 +1,13 @@
+'use client';
+
 import React from 'react';
 import Client from '../components/Experience/Client';
-import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
 const Experience = () => {
   const DynamicResumeLink = dynamic(
     () => import('../components/Experience/ResumeLink'),
-    { ssr: false }
+    { ssr: false },
   );
 
   return (
