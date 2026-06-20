@@ -26,11 +26,7 @@ export default async function LocaleLayout({
   const en = locale === 'en';
   return (
     <html lang={locale}>
-      <body
-        className={`${
-          en ? montserrat.className : montserrat.className
-        }  selection:bg-[#FFF7C2]`}
-      >
+      <body className={`${en ? montserrat.className : montserrat.className}`}>
         <GradientDiv className='[#FFFDFD] min-h-screen  text-black'>
           <Header />
           {children}
