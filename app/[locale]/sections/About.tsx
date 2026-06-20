@@ -19,7 +19,7 @@ const About = () => {
           <div className='flex flex-col gap-6'>
             <div className='flex flex-col gap-8 lg:mr-auto lg:flex-row'>
               <div
-                className={`${roboto.className} mr-auto text-sm leading-relaxed lg:w-3/4`}
+                className={`${roboto.className} mr-auto text-sm leading-relaxed`}
               >
                 {t('desc')}
                 <span
@@ -39,13 +39,6 @@ const About = () => {
 
                 <p className='mt-4'>{t('desc5')}</p>
               </div>
-              <Image
-                src='/profile.jpg'
-                width={180}
-                height={180}
-                alt='profile image'
-                className='mx-auto items-center justify-center rounded-full lg:ml-auto'
-              />
             </div>
           </div>
         </div>
