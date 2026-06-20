@@ -12,7 +12,7 @@
     "AppointlySummary": "会議などのスケジューリングを簡易化するWebアプリ。空いている時間をアプリ内のカレンダーに登録すると、ゲスト側はその中から日程を予約することができ、その通知がメールで自動的に送信されます。",
     "AppointlyReview": "ユーザーの声を見る",
     "AppointlyDemo": "デモ用アカウントはこちら!",
-    "PortfolioSummary": "React.jsとNext.js 14で作成した自身のポートフォリオ",
+    "PortfolioSummary": "React.js とNext.js で作成した自身のポートフォリオ",
     "NoteAppSummary": "MERNスタックで作成したNotionのようなメモアプリ"
   },
   "About": {

@@ -14,7 +14,7 @@ const Skills = () => {
             <li className='font-bold text-primary-accentDark'>TypeScript</li>
             <li>JavaScript</li>
             <li>HTML5</li>
-            <li>CSS/Sass</li>
+            <li>CSS</li>
           </ul>
         </div>
         <div>
@@ -25,17 +25,15 @@ const Skills = () => {
             <li className='font-bold text-primary-accentDark'>React.js</li>
             <li className='font-bold text-primary-accentDark'>Next.js</li>
             <li>React Native</li>
-            <li>Redux</li>
-            <li>Tailwind CSS</li>
-            <li>MUI</li>
-            <li>ChakuraUI</li>
-            <li>Storybook</li>
           </ul>
         </div>
         <div>
           <span className='font-bold'>OTHERS</span>
           <ul className={`${roboto.className} block lg:my-2`}>
             <li>Git</li>
+            <li>Unit Testing</li>
+            <li>E2E Testing</li>
+            <li>CI/CD</li>
             <li>Figma</li>
             <li>Supabase</li>
           </ul>
