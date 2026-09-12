@@ -2,14 +2,8 @@
 
 import React from 'react';
 import Client from '../components/Experience/Client';
-import dynamic from 'next/dynamic';
 
 const Experience = () => {
-  const DynamicResumeLink = dynamic(
-    () => import('../components/Experience/ResumeLink'),
-    { ssr: false },
-  );
-
   return (
     <div
       id='experience'
@@ -73,9 +67,6 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <span>
-          <DynamicResumeLink />
-        </span>
       </div>
     </div>
   );
