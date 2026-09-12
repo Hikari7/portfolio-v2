@@ -6,6 +6,7 @@ import Header from './components/Header';
 import { GradientDiv } from './ui/Common/GradientDiv';
 import SocialMediaDiv from './components/SocialMediaDiv';
 import Favicon from '../../public/favicon.png';
+import Footer from './components/Footer';
 
 export const metadata: Metadata = {
   title: 'Hikari | Portfolio',
@@ -32,6 +33,7 @@ export default async function LocaleLayout({
           <Header />
           {children}
           <SocialMediaDiv />
+          <Footer />
         </GradientDiv>
       </body>
     </html>
