@@ -6,9 +6,8 @@
   "schedule": ["* * 1 * *"],
   "packageRules": [
     {
-      "groupName": "all non-major devDependencies",
-      "groupSlug": "all-minor-patch-dev-dependencies",
-      "matchDepTypes": ["devDependencies"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch-dependencies",
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
