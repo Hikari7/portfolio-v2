@@ -13,7 +13,6 @@ export default function Main() {
         <Projects />
         <About />
         <Experience />
-        <Footer />
       </div>
     </Suspense>
   );

@@ -21,7 +21,7 @@ export type Skill =
   | 'Figma'
   | 'Storybook';
 
-const skillTagClassName = `items-center rounded-lg border border-primary-interactive bg-primary-action px-2 py-1 text-center text-xs font-bold ${roboto.className} text-primary-accentDark`;
+const skillTagClassName = `items-center rounded-lg  bg-primary-action px-2 py-1 text-center text-xs font-bold ${roboto.className} text-primary-accentDark`;
 
 interface SkillTagProps {
   skill: Skill;
