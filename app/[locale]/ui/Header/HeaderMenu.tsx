@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 
 import { IoMdMenu } from 'react-icons/io';
@@ -46,15 +47,15 @@ const HeaderMenu = ({ isSP }: HeaderMenuType) => {
                 </Scroll>
               </DropdownMenu.Item>
               <div>
-                <DropdownMenu.Separator className='m-[5px] h-[1px] bg-gray' />
+                <DropdownMenu.Separator className='m-[5px] h-px bg-gray' />
               </div>
             </>
           )}
           <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
-            <a href='/en'>🇨🇦 English</a>
+            <Link href='/en'>🇨🇦 English</Link>
           </DropdownMenu.Item>
           <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
-            <a href='/ja'>🇯🇵 日本語</a>
+            <Link href='/ja'>🇯🇵 日本語</Link>
           </DropdownMenu.Item>
           <DropdownMenu.Arrow className='fill-white' />
         </DropdownMenu.Content>

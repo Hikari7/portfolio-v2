@@ -15,7 +15,7 @@ const Tooltip = ({ children, label }: IconProps) => {
         </PrimitiveTooltip.Trigger>
         <PrimitiveTooltip.Portal>
           <PrimitiveTooltip.Content
-            className='select-none rounded-[4px] bg-white px-[12px] py-[8px] text-[12px] leading-none shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] will-change-[transform,opacity] data-[side=left]:animate-slideLeftAndFade '
+            className='select-none rounded-[4px] bg-white px-[12px] py-[8px] text-[12px] leading-none shadow-[hsl(206_22%_7%/35%)_0px_10px_38px_-10px,hsl(206_22%_7%/20%)_0px_10px_20px_-15px] will-change-[transform,opacity] data-[side=left]:animate-slideLeftAndFade '
             side='left'
           >
             {label}

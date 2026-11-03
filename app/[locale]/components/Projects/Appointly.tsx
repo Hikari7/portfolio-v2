@@ -47,10 +47,10 @@ const Appointly = () => {
           <ul className='text-xs'>
             <li>
               username:{' '}
-              <span className='border-b-[1px]'>test2023@gmail.com</span>
+              <span className='border-b'>test2023@gmail.com</span>
             </li>
             <li>
-              passowrd: <span className='border-b-[1px]'>Password123!?</span>
+              passowrd: <span className='border-b'>Password123!?</span>
             </li>
           </ul>
         </div>
