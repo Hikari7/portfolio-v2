@@ -9,7 +9,7 @@ import Tooltip from '../ui/Common/Tooltip';
 
 const SocialMediaDiv = () => {
   return (
-    <div className='fixed bottom-8 right-7 flex flex-col gap-3'>
+    <div className='fixed right-7 bottom-8 flex flex-col gap-3'>
       <Tooltip label={'GitHub'}>
         <ExternalLink href='https://github.com/Hikari7'>
           <FaGithub

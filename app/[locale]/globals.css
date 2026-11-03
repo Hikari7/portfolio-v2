@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-@config '../../tailwind.config.ts';
+@config '../../tailwind.config.mts';
 
 /*
   Tailwind v4 changed the default border color to `currentcolor`.
@@ -16,11 +16,11 @@
   }
 }
 
-.min-h-screen-hero {
+@utility min-h-screen-hero {
   min-height: calc(100vh - 144px);
 }
 
-.gradiation-container {
+@utility gradiation-container {
   aspect-ratio: 1 / 1;
   background: linear-gradient(300deg, #fff7c2, #ffced6, #cbcdff);
   border-radius: 50%;

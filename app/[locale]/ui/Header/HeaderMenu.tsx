@@ -31,17 +31,17 @@ const HeaderMenu = ({ isSP }: HeaderMenuType) => {
         >
           {isSP && (
             <>
-              <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
+              <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-highlighted:bg-primary-solid data-highlighted:text-white'>
                 <Scroll to='projects' smooth={true} offset={-60}>
                   Project
                 </Scroll>
               </DropdownMenu.Item>
-              <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
+              <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-highlighted:bg-primary-solid data-highlighted:text-white'>
                 <Scroll to='about' smooth={true} offset={-60}>
                   About
                 </Scroll>
               </DropdownMenu.Item>
-              <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
+              <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-highlighted:bg-primary-solid data-highlighted:text-white'>
                 <Scroll to='experience' smooth={true} offset={-60}>
                   Experience
                 </Scroll>
@@ -51,10 +51,10 @@ const HeaderMenu = ({ isSP }: HeaderMenuType) => {
               </div>
             </>
           )}
-          <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
+          <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-highlighted:bg-primary-solid data-highlighted:text-white'>
             <Link href='/en'>🇨🇦 English</Link>
           </DropdownMenu.Item>
-          <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-[highlighted]:bg-primary-solid data-[highlighted]:text-white'>
+          <DropdownMenu.Item className='relative flex h-[25px] w-full items-center rounded-[3px] px-2 text-center text-[13px] leading-none text-black outline-none data-highlighted:bg-primary-solid data-highlighted:text-white'>
             <Link href='/ja'>🇯🇵 日本語</Link>
           </DropdownMenu.Item>
           <DropdownMenu.Arrow className='fill-white' />
