@@ -1,12 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-.min-h-screen-hero {
+@config '../../tailwind.config.mts';
+
+/*
+  Tailwind v4 changed the default border color to `currentcolor`.
+  Keep the v3 default (gray-200) so existing borders look the same.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility min-h-screen-hero {
   min-height: calc(100vh - 144px);
 }
 
-.gradiation-container {
+@utility gradiation-container {
   aspect-ratio: 1 / 1;
   background: linear-gradient(300deg, #fff7c2, #ffced6, #cbcdff);
   border-radius: 50%;

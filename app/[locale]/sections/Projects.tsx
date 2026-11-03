@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div
       id='projects'
-      className='min-h-screen-hero  mx-auto flex w-full max-w-lg flex-col md:max-w-md lg:max-w-7xl'
+      className='mx-auto  flex min-h-screen-hero w-full max-w-lg flex-col md:max-w-md lg:max-w-7xl'
     >
       <h2 className='mb-8 text-left text-lg font-bold tracking-wider text-primary-solid'>
         Featured Projects

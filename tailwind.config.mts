@@ -52,8 +52,8 @@ const config: Config = {
       slideDownAndFade: 'slideDownAndFade 300ms cubic-bezier(0.16, 1, 0.3, 1)',
       slideLeftAndFade: 'slideLeftAndFade 300ms cubic-bezier(0.16, 1, 0.3, 1)',
     },
-    plugins: [],
   },
+  plugins: [],
 };
 
 export default config;
