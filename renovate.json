@@ -17,5 +17,8 @@
     "enabled": true,
     "schedule": ["* * 1 * *"],
     "automerge": true
+  },
+  "constraints": {
+    "npm": "<12"
   }
 }
